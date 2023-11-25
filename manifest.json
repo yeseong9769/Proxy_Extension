@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Proxy Extension",
+  "version": "1.0",
+  "description": "Custom proxy settings extension",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
